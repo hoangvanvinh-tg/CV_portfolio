@@ -231,10 +231,11 @@ body.dark-mode .hero {
 
 .hero-title {
     font-size: var(--font-size-2xl);
-    color: var(--text-dark);
+    color: #DD0000;
     margin-bottom: var(--spacing-sm);
     font-weight: 800;
     letter-spacing: -1px;
+    text-shadow: 0 0 20px #FFAAFF, 0 0 40px #FFAAFF;
 }
 
 .hero-tagline {
