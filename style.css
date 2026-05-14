@@ -511,6 +511,16 @@ body.dark-mode .skill-card:hover {
     font-size: 3rem;
     margin-bottom: var(--spacing-sm);
     animation: float 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.skill-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 
 .skill-name {
